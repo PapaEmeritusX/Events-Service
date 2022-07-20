@@ -29,7 +29,7 @@ public class EventServiceController {
         this.eventService = eventService;
     }
 
-    @PostMapping()
+    @PostMapping
     @Operation(summary = "Creates a new event in the Events Service application")
     public ResponseEntity<Event> createEvent(@Valid @RequestBody Event event) {
         Event eventCreated = eventService.createEvent(event);
