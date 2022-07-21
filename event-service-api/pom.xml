@@ -8,6 +8,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+
     <artifactId>event-service-api</artifactId>
     <dependencies>
         <dependency>
@@ -16,6 +17,7 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
+
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
